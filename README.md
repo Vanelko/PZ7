@@ -1,10 +1,11 @@
-# Furniture Website
+# Online Learning Platform
 
-Сайт мебельного бренда с timeless дизайном.
+Учебный одностраничный сайт онлайн-платформы для обучения.
 
 ## Технологии
 - HTML5
-
+- CSS-фреймворк Bulma
+- Font Awesome
 
 ## Ссылка на проект
 https://Vanelko.github.io/PZ7/
