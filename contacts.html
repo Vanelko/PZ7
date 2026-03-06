@@ -41,38 +41,52 @@
                     <p><strong>Адрес:</strong> Москва, Пушкино 13</p>
                 </div>
 
-                <div class="column">
-                    <h2 class="title is-4">Форма обратной связи</h2>
+                <form id="contactForm">
 
-                    <form>
-                        <div class="field">
-                            <label class="label">Имя</label>
-                            <div class="control">
-                                <input class="input" type="text" placeholder="Ваше имя">
-                            </div>
+                    <div class="field">
+                        <label class="label">ФИО</label>
+                        <div class="control">
+                            <input class="input" id="name" type="text" placeholder="Ваше имя">
                         </div>
+                    </div>
 
-                        <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control">
-                                <input class="input" type="email" placeholder="email@example.com">
-                            </div>
+                    <div class="field">
+                        <label class="label">Телефон</label>
+                        <div class="control">
+                            <input class="input" id="phone" type="text" placeholder="+7 (999) 999-99-99">
                         </div>
+                    </div>
 
-                        <div class="field">
-                            <label class="label">Сообщение</label>
-                            <div class="control">
-                                <textarea class="textarea" placeholder="Ваше сообщение"></textarea>
-                            </div>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control">
+                            <input class="input" id="email" type="email" placeholder="email@example.com">
                         </div>
+                    </div>
 
-                        <div class="field">
-                            <div class="control">
-                                <button class="button is-link">Отправить</button>
-                            </div>
+                    <div class="field">
+                        <label class="label">Сообщение</label>
+                        <div class="control">
+                            <textarea class="textarea" id="message" placeholder="Ваше сообщение"></textarea>
                         </div>
-                    </form>
-                </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="checkbox">
+                            <input type="checkbox" id="agree">
+                            Я согласен на обработку персональных данных
+                        </label>
+                    </div>
+
+                    <div class="field">
+                        <div class="control">
+                            <button class="button is-link" type="submit">
+                                Отправить
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
             </div>
         </div>
     </main>    
@@ -88,6 +102,10 @@
                 <a><i class="fab fa-github"></i></a>
             </p>
         </div>
-    </footer>    
+    </footer>
+
+<script src="js/validation.js"></script>
+<script src="js/consoleLogger.js"></script>  
+
 </body>
 </html>
